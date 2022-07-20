@@ -1,0 +1,9 @@
+.mou{
+    width: 100px;
+    height: 100px;
+    border:2px solid red;
+    background-color: aqua;
+    display:flex;
+    border-radius:5px ;
+    justify-content: center;
+}
