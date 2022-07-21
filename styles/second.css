@@ -51,8 +51,22 @@ body{
     color: white;
     padding:10px 20px;
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     border-radius: 4px;
+    display: flex;
+    transition: width 5s ease;
+}
+.button:hover {
+    width: 150px;
+}
+.button a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: whitesmoke;
+    font-weight: 700px;
+}
+.fa-solid{
+    padding-top: 5px;
 }
 /*.details{
     display:flex;
@@ -195,7 +209,7 @@ nav a{
    
 }
 hr{
-    width:80%;
+    width:70%;
     padding-left: 50px;
     border:0.5px solid gainsboro;
     margin-bottom: 50px;
@@ -204,5 +218,58 @@ hr{
    
     display: flex;
    justify-content: center;
+}
+@media only screen and (max-width:680px) {
+    body{
+        max-width: 83%;
+        margin: 0 auto;
+
+    }
+    .header{
+        height: 1020px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        width: 100%;
+    }
+    .details {
+           display:flex;
+            flex-direction: column;
+            
+            align-items: center;
+        
+            
+        }
+        .side-bar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        } 
+        .players{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+    footer {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        }
+        footer h2{
+            align-items: center;
+        }
+
+    .nev-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 

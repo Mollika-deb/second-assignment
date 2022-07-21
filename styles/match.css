@@ -45,8 +45,23 @@ body {
     color: white;
     padding: 10px 20px;
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     border-radius: 4px;
+    display:flex;
+    transition: width 5s ease;
+}
+.button:hover{
+    width:150px;
+}
+.button a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: whitesmoke;
+    font-weight: 700px;
+}
+
+.fa-solid {
+    padding-top: 5px;
 }
 .side-bar {
     background-color: black;
@@ -179,7 +194,7 @@ nav a {
 }
 
 hr {
-    width: 80%;
+    width: 70%;
     padding-left: 50px;
     border: 0.5px solid gainsboro;
     margin-bottom: 50px;
