@@ -9,7 +9,7 @@ body{
 .header {
     
     background-color:black;
-    width: 77%;
+    width: 83%;
     display: flex;
     margin:0 auto  ;
     align-items: center;
@@ -20,14 +20,14 @@ body{
     margin-bottom: 100px;
     
 }
+
 /*main {
    width: 70%;
    margin: auto ;
 }*/
 .container{
-    width: 70%;
-    margin: auto;
-
+    width: 83%;
+    
 }
 
 .title{
@@ -46,28 +46,29 @@ body{
 .banner img{
     padding-right: 50px;
 }
-#button{
+.button{
     background-color: red;
     color: white;
     padding:10px 20px;
     margin-top: 20px;
-   
+    width: 100px;
     border-radius: 4px;
 }
 /*.details{
     display:flex;
  
 }*/
- .update{
+ .side-bar{
     background-color: black;
     width:230px;
     height:255px;
     border-radius: 5px;
+    margin-left: 225px;
     
     
     
 } 
-.update a{
+.side-bar a{
     text-decoration: none;
 }
   .match a {
@@ -113,6 +114,7 @@ body{
     margin-bottom: 15px;
     margin-left: 30px;
     text-align: center;
+    font-weight: 800px;
     
      
 } 
@@ -129,7 +131,7 @@ body{
 .details{
    display: grid;
    grid-template-columns: repeat(2 ,1fr);
-   width: 90%;
+  
    justify-content: center;
 } 
 
@@ -177,6 +179,8 @@ footer h2{
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
+    font-weight: 800px;
+    font-size:1.5em;
 }
 nav li{
     list-style: none;
@@ -201,5 +205,4 @@ hr{
     display: flex;
    justify-content: center;
 }
-
 
