@@ -235,15 +235,16 @@ hr{
     .banner{
         width: 100%;
     }
+    
     .details {
            display:flex;
             flex-direction: column;
-            
+            justify-content: center;
             align-items: center;
         
             
         }
-        .side-bar{
+        .side-bar {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -253,9 +254,13 @@ hr{
         .players{
             display: grid;
             grid-template-columns: repeat(1,1fr);
+            justify-content: center;
         }
+        
     footer {
-        width: auto;
+
+        width: 83%;
+        margin: 0 auto;
         height: auto;
         flex-direction: column;
         align-items: center;
@@ -270,6 +275,55 @@ hr{
         justify-content: center;
         align-items: center;
         
+        
     }
+}
+@media only screen and (min-width:681px) and (max-width:992px){
+    body {
+            max-width: 83%;
+            margin: 0 auto;
+    
+        }
+    
+        .header {
+            height: 1020px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .banner {
+            width: 100%;
+        }
+    
+        .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+    
+        }
+    
+        .side-bar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+    }
+        .players {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .nev-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+
+        }
 }
 
